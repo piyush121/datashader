@@ -3,7 +3,8 @@
 Many of the examples rely on the NYC Taxi dataset, which can be
 downloaded by running the `download_sample_data.py` script. This may
 take up to 20 minutes, even on a good network connection. The dataset
-is roughly 1.5 GB on disk.
+is roughly 1.5 GB on disk. We are converting the latitude and longitude to meteric value which takes additional
+time to process the data.
 
 ```
 python download_sample_data.py
